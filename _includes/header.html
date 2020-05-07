@@ -1,0 +1,16 @@
+        <div id="header">
+            <header id="blog_title">
+                <h1><a href="/">{{site.title}}</a></h1>
+            </header>
+            <nav id="menu">
+                <ul class="header-nav">
+                    
+                    
+                    <li><a href="https://github.com/Albert-Lucif4" target="_blank">Github</a></li>
+                    
+                    <li{% if page.about %} class="current"{% endif %}><a href="/about">About</a></li>
+                    <li><a href="{{site.feed}}" class="menu-rss" target="_blank"></a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
